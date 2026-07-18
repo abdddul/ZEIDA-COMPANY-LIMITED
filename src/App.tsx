@@ -1290,8 +1290,10 @@ export default function App() {
               className="flex items-center justify-between pt-4 border-t border-[#1A3D2B]/10 text-left cursor-pointer w-full"
             >
               <span className="font-mono text-[10px] tracking-wider text-[#7A8C82] uppercase">Language / Lugha</span>
-              <div className="border border-[#1A3D2B]/15 rounded-full px-4 py-1.5 bg-[#F7F5F0]/80 font-mono text-[11px] font-semibold text-[#1A3D2B]">
-                {lang === "en" ? "ENG" : "SW"}
+              <div className="border-2 border-[#1A3D2B] text-[#1A3D2B] rounded-full px-3 py-1 bg-transparent font-sans text-xs font-semibold flex items-center gap-1.5 transition-all duration-300">
+                <Globe className="w-3.5 h-3.5 shrink-0" />
+                <span className="font-sans font-semibold text-xs tracking-wide">{lang === "en" ? "Eng" : "Swh"}</span>
+                <ChevronRight className="w-3 h-3 shrink-0" />
               </div>
             </button>
           </motion.div>
@@ -2407,12 +2409,12 @@ export default function App() {
           {/* Bottom Row: Sub footer divider & copyright */}
           <div className="pt-8 border-t border-[#3B4F43]/20 text-center">
             <p className="text-[11px] font-sans text-white/40 tracking-wider">
-              Copyright &copy; {new Date().getFullYear()} Zeida. All Rights Reserved. | Privacy Policy | Design by{" "}
+              Copyright &copy; {new Date().getFullYear()} ZEIDA. All Rights Reserved. | Privacy Policy | Designed by{" "}
               <a 
                 href="https://www.linkedin.com/in/abdul-shomari-172313358" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="hover:text-white hover:underline transition-colors cursor-pointer"
+                className="underline text-white/60 hover:text-[#C4A66B] transition-all duration-300 cursor-pointer font-medium"
               >
                 Abdul S.
               </a>
