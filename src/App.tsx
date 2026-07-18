@@ -50,42 +50,42 @@ const PRODUCTS_EN: ProductItem[] = [
   {
     id: "poultry-chickens",
     name: "Premium Chickens",
-    scientificCategory: "Gallus domesticus",
+    scientificCategory: "Live Chicken",
     description: "Nourished with high-yield organic animal feed with optimal protein profiling. Raised in clean, eco-adapted, bio-secure houses to assert absolute meat quality and density.",
     imageUrl: zeidaChickensImg
   },
   {
     id: "poultry-ducks",
     name: "Spacious-Bred Ducks",
-    scientificCategory: "Anas platyrhynchos",
+    scientificCategory: "Live Duck",
     description: "Hardy, active birds cultivated with high care in well-managed open facilities to allow natural behavioral loops, resulting in pristine dietary profiles.",
     imageUrl: "https://images.unsplash.com/photo-1555589050-df3fe14c40b3?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "livestock-goats-sheep",
     name: "Pastured Goats & Sheep",
-    scientificCategory: "Capra hircus & Ovis aries",
+    scientificCategory: "Goats & Sheep",
     description: "Grazed on high-quality forage and custom organic rations around the fertile Kisarawe lands. Bred under controlled conditions for structural longevity and health.",
     imageUrl: "https://images.unsplash.com/photo-1524024973431-2ad91a7248c7?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "poultry-turkeys",
     name: "Commercial Turkeys",
-    scientificCategory: "Meleagris gallopavo",
+    scientificCategory: "Turkey",
     description: "Highly sought-after broad-breasted lines. Developed for consistency, meat proportion, and health, making them the ultimate preference for institutional kitchens.",
     imageUrl: "https://images.unsplash.com/photo-1518259102261-b40117eabbc9?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "farm-eggs",
     name: "Nutrient-Dense Eggs",
-    scientificCategory: "Fresh Farm Harvest",
+    scientificCategory: "Farm Eggs",
     description: "Collected with meticulous sanitation schedules, graded and packed. Rich in omega profiles and standard yellow yolks, ideal for commercial distributors and retailers alike.",
     imageUrl: "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "poultry-game",
     name: "Specialty Poultry (Guinea Fowls, Quails, Pigeons)",
-    scientificCategory: "Exclusive Breeds",
+    scientificCategory: "Specialty Poultry",
     description: "High-grade delicacy provisions, bred under precision conditions to meet boutique hotel and premium culinary demands across the Dar es Salaam region.",
     imageUrl: "https://images.unsplash.com/photo-1552410260-0fd9b577afa6?auto=format&fit=crop&q=80&w=800"
   }
@@ -95,42 +95,42 @@ const PRODUCTS_SW: ProductItem[] = [
   {
     id: "poultry-chickens",
     name: "Kuku wa Kiwango cha Juu",
-    scientificCategory: "Gallus domesticus",
+    scientificCategory: "Live Chicken",
     description: "Waliolishwa kwa chakula asilia kilichojaa virutubisho vyote vya protini. Wamekuzwa kwenye mazingira safi na salama kabisa ili kuhakikisha nyama yao inakuwa bora na yenye kiwango cha juu.",
     imageUrl: zeidaChickensImg
   },
   {
     id: "poultry-ducks",
     name: "Bata Wanaofugwa kwa Nafasi",
-    scientificCategory: "Anas platyrhynchos",
+    scientificCategory: "Live Duck",
     description: "Ndege wastahimilivu na wepesi, wanaofugwa kwa uangalifu mkubwa kwenye mabanda ya wazi na ya kisasa ili kuwawezesha kuishi kwa uhuru na asili yao.",
     imageUrl: "https://images.unsplash.com/photo-1555589050-df3fe14c40b3?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "livestock-goats-sheep",
     name: "Mbuzi na Kondoo wa Malisho",
-    scientificCategory: "Capra hircus & Ovis aries",
+    scientificCategory: "Goats & Sheep",
     description: "Wanalishwa malisho bora ya asili na mchanganyiko maalumu kwenye ardhi yenye rutuba ya Kisarawe. Wamefugwa chini ya uangalizi thabiti ili kuhakikisha afya njema na maisha marefu.",
     imageUrl: "https://images.unsplash.com/photo-1524024973431-2ad91a7248c7?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "poultry-turkeys",
     name: "Bata Mzinga wa Biashara",
-    scientificCategory: "Meleagris gallopavo",
+    scientificCategory: "Turkey",
     description: "Bata mzinga wakubwa wenye muundo mnene wa nyama unaotafutwa sana. Wamekuzwa kwa ustawi thabiti na afya ya kipekee, wakiwa chaguo bora kwa hoteli na migahawa mikubwa.",
     imageUrl: "https://images.unsplash.com/photo-1518259102261-b40117eabbc9?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "farm-eggs",
     name: "Mayai yenye Virutubisho vya Juu",
-    scientificCategory: "Mavuno Mapya ya Shambani",
+    scientificCategory: "Farm Eggs",
     description: "Yanakusanywa kila siku kwa kuzingatia viwango vikubwa vya usafi, kisha kupangwa na kufungashwa. Yana kiwango kikubwa cha Omega na viini vya njano imara, bora kwa wasambazaji na maduka.",
     imageUrl: "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "poultry-game",
     name: "Ndege Maalum (Kanga, Kware, na Njiwa)",
-    scientificCategory: "Mifugo Maalum",
+    scientificCategory: "Specialty Poultry",
     description: "Nyama ya kipekee ya kifahari, inayozalishwa kwa mifumo ya usahihi ili kukidhi mahitaji ya hoteli za kitalii na wapishi mashuhuri jijini Dar es Salaam.",
     imageUrl: "https://images.unsplash.com/photo-1552410260-0fd9b577afa6?auto=format&fit=crop&q=80&w=800"
   }
@@ -373,7 +373,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Chicken & Duck", sw: "Kuku & Bata", key: "poultry" },
     unit: { en: "KG", sw: "KG" },
     price: 17000,
-    scientificCategory: "Gallus domesticus (Fresh Cut)",
+    scientificCategory: "Cleaned Chicken",
     description: {
       en: "Freshly prepared, cleaned, and vacuum-sealed raw chicken with perfect temperature-controlled delivery.",
       sw: "Kuku mbichi aliyetayarishwa, kusafishwa na kufungashwa kisasa tayari kwa mapishi yako ya jikoni."
@@ -395,7 +395,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Chicken & Duck", sw: "Kuku & Bata", key: "poultry" },
     unit: { en: "KG", sw: "KG" },
     price: 13000,
-    scientificCategory: "Gallus domesticus (Live Breed)",
+    scientificCategory: "Live Chicken",
     description: {
       en: "Healthy, active live chicken bred with organically formulated on-site feed and superior biosecurity.",
       sw: "Kuku mzima aliye hai, mwenye afya na aliyelishwa chakula kiasili cha shambani kisicho na kemikali."
@@ -417,7 +417,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Chicken & Duck", sw: "Kuku & Bata", key: "poultry" },
     unit: { en: "KG", sw: "KG" },
     price: 17000,
-    scientificCategory: "Anas platyrhynchos (Fresh Cut)",
+    scientificCategory: "Cleaned Duck",
     description: {
       en: "Cleaned and packaged premium duck meat, rich in natural flavor and healthy nutrition profile.",
       sw: "Nyama tamu ya bata iliyosafishwa na tayari kwa ajili ya mapishi ya kifahari ya familia."
@@ -439,7 +439,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Chicken & Duck", sw: "Kuku & Bata", key: "poultry" },
     unit: { en: "KG", sw: "KG" },
     price: 13000,
-    scientificCategory: "Anas platyrhynchos (Live Breed)",
+    scientificCategory: "Live Duck",
     description: {
       en: "Fully grown, energetic live ducks bred in spacious, eco-adapted open coastal environments.",
       sw: "Bata hai mwenye afya, aliyekuzwa kwa uhuru kwenye mazingira safi ya pwani ya Kisarawe."
@@ -549,7 +549,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Maziwa, Mayai & Sungura", sw: "Maziwa, Mayai & Sungura", key: "dairy-eggs" },
     unit: { en: "Rabbit", sw: "Sungura" },
     price: 30000,
-    scientificCategory: "Oryctolagus cuniculus (Healthy Breed)",
+    scientificCategory: "Live Rabbit",
     description: {
       en: "Premium breed white and brown-and-white rabbits model-reared for low-fat meat demand.",
       sw: "Sungura hai au aliyetayarishwa kwa nyama yenye kiwango cha chini sana cha mafuta na afya thabiti."
@@ -571,7 +571,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Mbuzi & Kondoo", sw: "Mbuzi & Kondoo", key: "livestock" },
     unit: { en: "KG", sw: "KG" },
     price: 10000,
-    scientificCategory: "Capra hircus (Kisarawe)",
+    scientificCategory: "Live Goat",
     description: {
       en: "Aromatic Kisarawe pasture-grazed goat meat, highly tender and cut precisely on order.",
       sw: "Nyama ya mbuzi laini na yenye ladha nzuri ya malisho ya Kisarawe, iliyokatwa kwa usafi wa hali ya juu."
@@ -593,7 +593,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Mbuzi & Kondoo", sw: "Mbuzi & Kondoo", key: "livestock" },
     unit: { en: "KG", sw: "KG" },
     price: 10000,
-    scientificCategory: "Ovis aries (Coastal)",
+    scientificCategory: "Live Sheep",
     description: {
       en: "Coastal pastured grass-fed sheep meat, rich in omega profiles with excellent fat-to-lean ratios.",
       sw: "Nyama tamu ya kondoo aliyelishwa majani mabichi ya pwani yenye kiwango bora cha mafuta ya asili."
@@ -615,7 +615,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Bata Bukini, Mzinga & Kanga", sw: "Bata Bukini, Mzinga & Kanga", key: "specialty" },
     unit: { en: "Piece", sw: "Bata" },
     price: 250000,
-    scientificCategory: "Anser anser (Royal Breed)",
+    scientificCategory: "Live Geese",
     description: {
       en: "Prestigious, majestic geese raised under strict bio-security guidelines, highly valued for specialty cooking and organic farm patrol.",
       sw: "Bata bukini wakubwa wenye hadhi ya juu, waliofugwa kwa uangalifu maalum kwa ajili ya sikukuu au sherehe za kifahari."
@@ -637,7 +637,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Bata Bukini, Mzinga & Kanga", sw: "Bata Bukini, Mzinga & Kanga", key: "specialty" },
     unit: { en: "Piece", sw: "Kichwa mmoja" },
     price: 150000,
-    scientificCategory: "Meleagris gallopavo (Broad Breasted)",
+    scientificCategory: "Live Turkey",
     description: {
       en: "Broad-breasted premium turkeys raised strictly on organic farm-grown meal for unmatched meat density.",
       sw: "Bata mzinga wakubwa waliolishwa chakula bora cha shambani ili kuhakikisha uzito na nyama nzuri inayoota."
@@ -659,7 +659,7 @@ export const PRICING_PRODUCTS: PricingProduct[] = [
     category: { en: "Bata Bukini, Mzinga & Kanga", sw: "Bata Bukini, Mzinga & Kanga", key: "specialty" },
     unit: { en: "Piece", sw: "Kichwa mmoja" },
     price: 30000,
-    scientificCategory: "Numida meleagris (Native delicacy)",
+    scientificCategory: "Live Guineafowl",
     description: {
       en: "Exotic specialty poultry with lean, gamey flavor-rich meat, bred cleanly under strict forest-pasture mimics.",
       sw: "Kanga wa shambani wenye nyama tamu ya kiasili yenye mafuta kidogo na ladha ya kipekee asilia."
@@ -1070,9 +1070,13 @@ export default function App() {
     setMobileMenuOpen(false);
     setSelectedArticle(null);
     setTimeout(() => {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+      if (id === "hero") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
       }
     }, 50);
   };
@@ -1493,7 +1497,7 @@ export default function App() {
               <h2 className="font-serif text-[#1D2B22] uppercase tracking-normal leading-[1.1] md:leading-[1.15]"
                   style={{ fontSize: "clamp(2rem, 5vw, 3rem)" }}>
                 {lang === "en" 
-                  ? "Organic Purity. Cultivated with Absolute Biological Care." 
+                  ? "Organic Purity. Raised with Absolute Biological Care." 
                   : "Ufugaji wa Kiasili. Kupata Thamani Bora na Afya Thabiti."}
               </h2>
 
@@ -1699,6 +1703,20 @@ export default function App() {
                   {(() => {
                     const rate = selectedBreedProduct.price;
 
+                    const isGoat = selectedBreedProduct.id === "mbuzi";
+                    const isSheep = selectedBreedProduct.id === "kondoo";
+                    const isGoatOrSheep = isGoat || isSheep;
+
+                    const animalNameEn = isGoat ? "Goat" : isSheep ? "Sheep" : "Chicken";
+                    const animalNameSw = isGoat ? "Mbuzi" : isSheep ? "Kondoo" : "Kuku";
+                    const animalNameEnPlural = isGoat ? "Goats" : isSheep ? "Sheep" : "Chickens";
+                    const animalNameSwPlural = isGoat ? "Mbuzi" : isSheep ? "Kondoo" : "Kuku";
+                    const animalIcon = isGoatOrSheep ? "🐐" : "🐓";
+
+                    const minWeight = isGoatOrSheep ? 10.0 : 1.0;
+                    const maxWeight = isGoatOrSheep ? 35.0 : 2.5;
+                    const defaultWeight = isGoatOrSheep ? 15.0 : 1.5;
+
                     const distributeWeights = (n: number, avgW: number): number[] => {
                       if (n <= 0) return [];
                       if (n === 1) return [Number(avgW.toFixed(2))];
@@ -1706,13 +1724,16 @@ export default function App() {
                       const weights: number[] = [];
                       let remainingWeight = Number((avgW * n).toFixed(2));
                       
+                      const minSingle = isGoatOrSheep ? 10.0 : 1.2;
+                      const maxSingle = isGoatOrSheep ? 35.0 : 2.2;
+                      
                       for (let i = 0; i < n - 1; i++) {
                         const variation = Math.sin(i * 1.7) * 0.15;
                         let w = avgW * (1 + variation);
-                        w = Math.max(1.2, Math.min(2.2, w));
+                        w = Math.max(minSingle, Math.min(maxSingle, w));
                         
-                        const minPossibleRemaining = (n - 1 - i) * 1.2;
-                        const maxPossibleRemaining = (n - 1 - i) * 2.2;
+                        const minPossibleRemaining = (n - 1 - i) * minSingle;
+                        const maxPossibleRemaining = (n - 1 - i) * maxSingle;
                         
                         if (remainingWeight - w < minPossibleRemaining) {
                           w = remainingWeight - minPossibleRemaining;
@@ -1720,12 +1741,12 @@ export default function App() {
                           w = remainingWeight - maxPossibleRemaining;
                         }
                         
-                        w = Number(Math.max(1.1, Math.min(2.3, w)).toFixed(2));
+                        w = Number(Math.max(minSingle - 0.1, Math.min(maxSingle + 0.1, w)).toFixed(2));
                         weights.push(w);
                         remainingWeight = Number((remainingWeight - w).toFixed(2));
                       }
                       
-                      weights.push(Number(Math.max(1.0, remainingWeight).toFixed(2)));
+                      weights.push(Number(Math.max(minSingle - 0.2, remainingWeight).toFixed(2)));
                       return weights;
                     };
 
@@ -1749,7 +1770,7 @@ export default function App() {
                     if (activeMode === "quantity") {
                       const q = parseFloat(calcQuantity) || 0;
                       const hasWeight = selectedBreedProduct.unit.en === "KG";
-                      const w = hasWeight ? (parseFloat(calcWeight) || 1.5) : 1;
+                      const w = hasWeight ? (parseFloat(calcWeight) || defaultWeight) : 1;
 
                       totalChickens = q;
                       avgWeight = w;
@@ -1758,7 +1779,7 @@ export default function App() {
 
                       if (hasWeight) {
                         breakdownDetails = [
-                          { label: lang === "en" ? "Total Chickens" : "Idadi ya Kuku", value: `${q}` },
+                          { label: lang === "en" ? `Total ${animalNameEnPlural}` : `Idadi ya ${animalNameSwPlural}`, value: `${q}` },
                           { label: lang === "en" ? "Avg Weight" : "Uzito wa Lengo", value: `${w.toFixed(2)} KG` },
                           { label: lang === "en" ? "Total Weight" : "Uzito Jumla", value: `${totalWeight.toFixed(2)} KG` },
                           { label: lang === "en" ? "Final Price" : "Bei Kamili", value: `${finalPrice.toLocaleString()} TZS` },
@@ -1774,9 +1795,9 @@ export default function App() {
                       const hasWeight = selectedBreedProduct.unit.en === "KG";
 
                       if (hasWeight) {
-                        const targetSingleChickenWeight = 1.5;
-                        const minChickenWeight = 1.2;
-                        const maxChickenWeight = 2.2;
+                        const targetSingleChickenWeight = defaultWeight;
+                        const minChickenWeight = minWeight;
+                        const maxChickenWeight = maxWeight;
 
                         const totalWeightAllowed = budget / rate;
                         const maxN = Math.floor(totalWeightAllowed / minChickenWeight);
@@ -1798,9 +1819,9 @@ export default function App() {
                         }
 
                         if (bestN === 0) {
-                          if (totalWeightAllowed >= 1.0) {
+                          if (totalWeightAllowed >= minChickenWeight) {
                             bestN = 1;
-                            bestAvgW = Math.min(maxChickenWeight, Math.max(1.0, totalWeightAllowed));
+                            bestAvgW = Math.min(maxChickenWeight, Math.max(minChickenWeight, totalWeightAllowed));
                           } else {
                             bestN = 0;
                             bestAvgW = totalWeightAllowed;
@@ -1822,7 +1843,7 @@ export default function App() {
                             const lastIdx = distributedWeightsList.length - 1;
                             const overspent = finalPrice - budget;
                             const weightReduction = Math.ceil((overspent / rate) * 100) / 100;
-                            distributedWeightsList[lastIdx] = Number(Math.max(1.0, distributedWeightsList[lastIdx] - weightReduction).toFixed(2));
+                            distributedWeightsList[lastIdx] = Number(Math.max(minChickenWeight, distributedWeightsList[lastIdx] - weightReduction).toFixed(2));
                             
                             const newSum = distributedWeightsList.reduce((sum, w) => sum + w, 0);
                             totalWeight = newSum;
@@ -1831,7 +1852,7 @@ export default function App() {
                         }
 
                         breakdownDetails = [
-                          { label: lang === "en" ? "Total Chickens" : "Idadi ya Kuku", value: `${totalChickens}` },
+                          { label: lang === "en" ? `Total ${animalNameEnPlural}` : `Idadi ya ${animalNameSwPlural}`, value: `${totalChickens}` },
                           { label: lang === "en" ? "Average Weight" : "Kadirio la Uzito", value: `${avgWeight.toFixed(2)} KG` },
                           { label: lang === "en" ? "Total Weight" : "Uzito Jumla", value: `${totalWeight.toFixed(2)} KG` },
                           { label: lang === "en" ? "Final Price" : "Bei Kamili", value: `${finalPrice.toLocaleString()} TZS` },
@@ -1859,12 +1880,12 @@ export default function App() {
                     let whatsappText = "";
                     if (activeMode === "budget") {
                       whatsappText = lang === "en"
-                        ? `Hello, I would like to order:\n\nBreed/Product: ${selectedBreedProduct.name.en}\nBudget-Based Allocation Mode:\n- Target Budget: ${parseFloat(calcBudget).toLocaleString()} TZS\n- Optimal Chicken Count: ${totalChickens}\n- Average Weight per Chicken: ${avgWeight.toFixed(2)} KG\n- Combined Total Weight: ${totalWeight.toFixed(2)} KG\n- Estimated Total Cost: ${finalPrice.toLocaleString()} TZS\n${distributedWeightsList.length > 0 ? `- Distributed Weights: ${distributedWeightsList.join(", ")} KG\n` : ""}\nPlease confirm availability.`
-                        : `Habari, ningependa kuagiza:\n\nMfugo/Bidhaa: ${selectedBreedProduct.name.sw}\nUgawaji kwa Bajeti:\n- Bajeti Iliyolengwa: ${parseFloat(calcBudget).toLocaleString()} TZS\n- Idadi Bora ya Kuku: ${totalChickens}\n- Kadirio la Uzito kila mmoja: ${avgWeight.toFixed(2)} KG\n- Jumla ya Uzito wa Pamoja: ${totalWeight.toFixed(2)} KG\n- Kadirio la Gharama: ${finalPrice.toLocaleString()} TZS\n${distributedWeightsList.length > 0 ? `- Mtawanyiko wa Uzito: ${distributedWeightsList.join(", ")} KG\n` : ""}\nTafadhali thibitisha upatikanaji.`;
+                        ? `Hello, I would like to order:\n\nBreed/Product: ${selectedBreedProduct.name.en}\nBudget-Based Allocation Mode:\n- Target Budget: ${parseFloat(calcBudget).toLocaleString()} TZS\n- Optimal ${animalNameEn} Count: ${totalChickens}\n- Average Weight per ${animalNameEn}: ${avgWeight.toFixed(2)} KG\n- Combined Total Weight: ${totalWeight.toFixed(2)} KG\n- Estimated Total Cost: ${finalPrice.toLocaleString()} TZS\n${distributedWeightsList.length > 0 ? `- Distributed Weights: ${distributedWeightsList.join(", ")} KG\n` : ""}\nPlease confirm availability.`
+                        : `Habari, ningependa kuagiza:\n\nMfugo/Bidhaa: ${selectedBreedProduct.name.sw}\nUgawaji kwa Bajeti:\n- Bajeti Iliyolengwa: ${parseFloat(calcBudget).toLocaleString()} TZS\n- Idadi Bora ya ${animalNameSwPlural}: ${totalChickens}\n- Kadirio la Uzito kila mmoja: ${avgWeight.toFixed(2)} KG\n- Jumla ya Uzito wa Pamoja: ${totalWeight.toFixed(2)} KG\n- Kadirio la Gharama: ${finalPrice.toLocaleString()} TZS\n${distributedWeightsList.length > 0 ? `- Mtawanyiko wa Uzito: ${distributedWeightsList.join(", ")} KG\n` : ""}\nTafadhali thibitisha upatikanaji.`;
                     } else if (activeMode === "quantity") {
                       whatsappText = lang === "en"
-                        ? `Hello, I would like to order:\n\nBreed/Product: ${selectedBreedProduct.name.en}\nQuantity + Weight Mode:\n- Desired Chickens/Units: ${totalChickens}\n${selectedBreedProduct.unit.en === "KG" ? `- Desired Weight per Chicken: ${avgWeight.toFixed(2)} KG\n- Combined Total Weight: ${totalWeight.toFixed(2)} KG\n` : ""}- Calculated Total Price: ${finalPrice.toLocaleString()} TZS\n\nPlease confirm availability.`
-                        : `Habari, ningependa kuagiza:\n\nMfugo/Bidhaa: ${selectedBreedProduct.name.sw}\nNjia ya Idadi na Uzito:\n- Idadi Iliyoombwa: ${totalChickens}\n${selectedBreedProduct.unit.sw === "KG" ? `- Uzito Uliokusudiwa: ${avgWeight.toFixed(2)} KG\n- Jumla ya Uzito wa Pamoja: ${totalWeight.toFixed(2)} KG\n` : ""}- Kadirio la Bei Kamili: ${finalPrice.toLocaleString()} TZS\n\nTafadhali thibitisha upatikanaji.`;
+                        ? `Hello, I would like to order:\n\nBreed/Product: ${selectedBreedProduct.name.en}\nQuantity + Weight Mode:\n- Desired ${animalNameEnPlural}/Units: ${totalChickens}\n${selectedBreedProduct.unit.en === "KG" ? `- Desired Weight per ${animalNameEn}: ${avgWeight.toFixed(2)} KG\n- Combined Total Weight: ${totalWeight.toFixed(2)} KG\n` : ""}- Calculated Total Price: ${finalPrice.toLocaleString()} TZS\n\nPlease confirm availability.`
+                        : `Habari, ningependa kuagiza:\n\nMfugo/Bidhaa: ${selectedBreedProduct.name.sw}\nNjia ya Idadi na Uzito:\n- Idadi Iliyoombwa: ${totalChickens}\n${selectedBreedProduct.unit.sw === "KG" ? `- Uzito Uliokusudiwa kwa ${animalNameSw}: ${avgWeight.toFixed(2)} KG\n- Jumla ya Uzito wa Pamoja: ${totalWeight.toFixed(2)} KG\n` : ""}- Kadirio la Bei Kamili: ${finalPrice.toLocaleString()} TZS\n\nTafadhali thibitisha upatikanaji.`;
                     } else {
                       whatsappText = lang === "en"
                         ? `Hello, I would like to order:\n\nBreed: ${selectedBreedProduct.name.en}\nQuantity: ${modalQuantity} ${selectedBreedProduct.unit.en}\nEstimated Total: ${(selectedBreedProduct.price * modalQuantity).toLocaleString()} TZS\n\nPlease confirm availability.`
@@ -1920,7 +1941,7 @@ export default function App() {
                             {/* Quantity-based input (Mode 2) */}
                             <div className="col-span-2 sm:col-span-1 flex flex-col">
                               <label className="font-sans text-[9px] tracking-widest text-[#7A8C82] uppercase mb-1 font-semibold">
-                                {lang === "en" ? "Quantity" : "Idadi / Kuku"}
+                                {lang === "en" ? "Quantity" : `Idadi / ${animalNameSw}`}
                               </label>
                               <input
                                 type="number"
@@ -1942,18 +1963,18 @@ export default function App() {
                               <div className="col-span-2 flex flex-col">
                                 <div className="flex justify-between items-center mb-1">
                                   <label className="font-sans text-[9px] tracking-widest text-[#7A8C82] uppercase font-semibold">
-                                    {lang === "en" ? "Desired Weight per Chicken" : "Uzito Uliokusudiwa kwa Kuku"}
+                                    {lang === "en" ? `Desired Weight per ${animalNameEn}` : `Uzito Uliokusudiwa kwa ${animalNameSw}`}
                                   </label>
                                   <span className="font-mono text-[10px] text-[#1A3D2B] font-bold">
-                                    {calcWeight ? `${parseFloat(calcWeight).toFixed(1)} KG` : "1.5 KG"}
+                                    {calcWeight ? `${parseFloat(calcWeight).toFixed(1)} KG` : `${defaultWeight.toFixed(1)} KG`}
                                   </span>
                                 </div>
                                 <input
                                   type="range"
-                                  min="1.0"
-                                  max="2.5"
-                                  step="0.1"
-                                  value={calcWeight || "1.5"}
+                                  min={minWeight.toFixed(1)}
+                                  max={maxWeight.toFixed(1)}
+                                  step={isGoatOrSheep ? "0.5" : "0.1"}
+                                  value={calcWeight || defaultWeight.toString()}
                                   onChange={(e) => {
                                     setCalcWeight(e.target.value);
                                     if (!calcQuantity) {
@@ -1964,9 +1985,9 @@ export default function App() {
                                   className="w-full h-1 bg-[#1A3D2B]/10 rounded-lg appearance-none cursor-pointer accent-[#C4A66B]"
                                 />
                                 <div className="flex justify-between font-mono text-[8px] text-[#7A8C82] mt-0.5">
-                                  <span>1.0 KG ({lang === "en" ? "Small" : "Ndogo"})</span>
-                                  <span>1.5 KG ({lang === "en" ? "Standard" : "Kawaida"})</span>
-                                  <span>2.5 KG ({lang === "en" ? "Premium Heavy" : "Kubwa Kubwa"})</span>
+                                  <span>{minWeight.toFixed(1)} KG ({lang === "en" ? "Small" : "Ndogo"})</span>
+                                  <span>{((minWeight + maxWeight) / 2).toFixed(1)} KG ({lang === "en" ? "Standard" : "Kawaida"})</span>
+                                  <span>{maxWeight.toFixed(1)} KG ({lang === "en" ? "Premium Heavy" : "Kubwa Kubwa"})</span>
                                 </div>
                               </div>
                             )}
@@ -1998,12 +2019,12 @@ export default function App() {
                               {activeMode === "budget" && distributedWeightsList.length > 0 && (
                                 <div className="pt-2 border-t border-[#3B4F43]/5">
                                   <span className="font-sans text-[8px] text-[#7A8C82] uppercase tracking-wider block mb-1">
-                                    {lang === "en" ? "Dynamic Weight Allocation per Chicken (KG):" : "Mtawanyiko wa Uzito kwa kila Kuku (KG):"}
+                                    {lang === "en" ? `Dynamic Weight Allocation per ${animalNameEn} (KG):` : `Mtawanyiko wa Uzito kwa kila ${animalNameSw} (KG):`}
                                   </span>
                                   <div className="flex flex-wrap gap-1 max-h-[64px] overflow-y-auto pr-1">
                                     {distributedWeightsList.map((w, idx) => (
                                       <span key={idx} className="font-mono text-[9px] bg-[#1A3D2B]/5 border border-[#1A3D2B]/10 text-[#1A3D2B] px-1.5 py-0.5 rounded-sm">
-                                        🐓 #{idx + 1}: <strong className="text-[#C4A66B]">{w.toFixed(2)}</strong> kg
+                                        {animalIcon} #{idx + 1}: <strong className="text-[#C4A66B]">{w.toFixed(2)}</strong> kg
                                       </span>
                                     ))}
                                   </div>
@@ -2089,7 +2110,7 @@ export default function App() {
                           </div>
 
                           <a
-                            href={`https://wa.me/255673430776?text=${encodeURIComponent(whatsappText)}`}
+                            href={`https://wa.me/255798889840?text=${encodeURIComponent(whatsappText)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full flex items-center justify-center space-x-2 bg-[#1A3D2B] hover:bg-[#C4A66B] text-[#FFFFFF] font-mono text-[11px] tracking-widest uppercase font-bold py-4 rounded-xl transition-all duration-300 shadow-md cursor-pointer hover:shadow-lg"
@@ -2295,13 +2316,13 @@ export default function App() {
                 {lang === "en" ? "Contact" : "Mawasiliano"}
               </h4>
               <div className="space-y-4">
-                <a href="tel:+255673430776" className="flex items-center gap-3.5 group cursor-pointer">
+                <a href="tel:+255798889840" className="flex items-center gap-3.5 group cursor-pointer">
                   <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-[#C4A66B]/15 group-hover:border-[#C4A66B]/40 transition-all duration-300">
                     <Phone size={15} className="text-[#C4A66B] group-hover:scale-110 transition-transform" />
                   </div>
                   <div>
                     <span className="block text-[9px] uppercase tracking-wider text-white/40 font-semibold leading-none mb-1">{lang === "en" ? "Phone" : "Simu"}</span>
-                    <span className="text-[13px] text-white/80 group-hover:text-white transition-colors font-light font-sans">+(255) 673 430 776</span>
+                    <span className="text-[13px] text-white/80 group-hover:text-white transition-colors font-light font-sans">+(255) 798 889 840</span>
                   </div>
                 </a>
 
